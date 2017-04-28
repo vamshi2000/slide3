@@ -1,0 +1,19 @@
+.container{
+	position: absolute;
+	left: 50%;
+	border: 1px solid black;
+	padding: 2px;
+}
+.inner-container{
+	border: 1px solid black;
+	padding: 2px;
+}
+#contact{
+	border: 1px solid black;
+	padding: 2px;
+}
+#submit-button{
+	border: 1px solid black;
+	padding: 2px;
+	float: right;
+}

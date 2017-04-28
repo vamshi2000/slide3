@@ -1,0 +1,45 @@
+
+<div>
+<a (click)="onShow()"  >Open Contact Slideout </a>
+</div>
+
+<div *ngIf='isForm'>
+  <div class="container">
+  
+   <div class="form-inline">
+	<span id="contact" style="">
+		<label>Contact</label>
+		<a (click)="onCollapse()" style="cursor: pointer;margin-left: 65%;font-style: bold" >X</a>
+	</span>
+   </div >
+   
+   <div class="inner-container">
+   <div class="form-inline">
+    <label>FirstName</label>
+   </div>
+
+   <div>
+	<input type="text" name="firstName" id="firstName" >
+   </div>
+   <div class="form-inline">
+	<label>Surname</label>
+   </div>
+
+   <div>
+	<input type="text" name="surName"  id="surName"  >
+   </div>
+
+   <div class="form-inline">
+	<label>Message</label>
+   </div>
+
+   <div>
+	<textarea rows="6" cols="25" name="message" id="message"  ></textarea>
+   </div>
+  </div>
+   <div class="form-inline" id="submit-button">
+   <button type="submit" (click)="onExport()">Send</button>	
+   </div>
+ 
+  </div>
+</div>
